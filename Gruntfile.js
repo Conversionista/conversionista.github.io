@@ -267,7 +267,7 @@ module.exports = function (grunt) {
       pages: {
         options: {
           remote: 'git@github.com:Conversionista/conversionista.github.io.git',
-          branch: 'gh-pages'
+          branch: 'master'
         }
       }
     
