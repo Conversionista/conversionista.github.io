@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+// Mixins
+@import "../_bower_components/materialize/sass/components/prefixer";
+@import "../_bower_components/materialize/sass/components/mixins";
+@import "../_bower_components/materialize/sass/components/color";
+
+// Variables;
+@import "variables";
+
+// Reset
+@import "../_bower_components/materialize/sass/components/normalize";
+
+// components
+@import "../_bower_components/materialize/sass/components/global";
+@import "../_bower_components/materialize/sass/components/icons-material-design";
+@import "../_bower_components/materialize/sass/components/grid";
+@import "../_bower_components/materialize/sass/components/navbar";
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../_bower_components/materialize/font/roboto/Roboto-Thin.ttf);
+    font-weight: 200;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(../_bower_components/materialize/font/roboto/Roboto-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../_bower_components/materialize/font/roboto/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../_bower_components/materialize/font/roboto/Roboto-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../_bower_components/materialize/font/roboto/Roboto-Bold.ttf);
+    font-weight: 700;
+}
+
+@import "../_bower_components/materialize/sass/components/typography";
+@import "../_bower_components/materialize/sass/components/cards";
+@import "../_bower_components/materialize/sass/components/toast";
+@import "../_bower_components/materialize/sass/components/tabs";
+@import "../_bower_components/materialize/sass/components/tooltip";
+@import "../_bower_components/materialize/sass/components/buttons";
+@import "../_bower_components/materialize/sass/components/dropdown";
+@import "../_bower_components/materialize/sass/components/waves";
+@import "../_bower_components/materialize/sass/components/modal";
+@import "../_bower_components/materialize/sass/components/collapsible";
+@import "../_bower_components/materialize/sass/components/materialbox";
+@import "../_bower_components/materialize/sass/components/form";
+@import "../_bower_components/materialize/sass/components/table_of_contents";
+@import "../_bower_components/materialize/sass/components/sideNav";
+@import "../_bower_components/materialize/sass/components/preloader";
+@import "../_bower_components/materialize/sass/components/slider";
+@import "../_bower_components/materialize/sass/components/date_picker/default.scss";
+@import "../_bower_components/materialize/sass/components/date_picker/default.date.scss";
+@import "../_bower_components/materialize/sass/components/date_picker/default.time.scss";
+
+@font-face {
+    font-family: "Material-Design-Icons";
+    src:url("../_bower_components/materialize/font/material-design-icons/Material-Design-Icons.eot?-g7cqhn");
+    src:url("../_bower_components/materialize/font/material-design-icons/Material-Design-Icons.eot?#iefix-g7cqhn") format("embedded-opentype"),
+        url("../_bower_components/materialize/font/material-design-icons/Material-Design-Icons.woff?-g7cqhn") format("woff"),
+        url("../_bower_components/materialize/font/material-design-icons/Material-Design-Icons.ttf?-g7cqhn") format("truetype"),
+        url("../_bower_components/materialize/font/material-design-icons/Material-Design-Icons.svg?-g7cqhn#Material-Design-Icons") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
