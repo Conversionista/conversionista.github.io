@@ -1,10 +1,10 @@
-// generated on 2016-06-06 using generator-webapp 2.1.0
+// generated on 2016-06-07 using generator-webapp 2.1.0
 const gulp = require('gulp');
 const gulpLoadPlugins = require('gulp-load-plugins');
 const browserSync = require('browser-sync');
 const del = require('del');
-const wiredep = require('wiredep').stream;
 const ghPages = require('gulp-gh-pages');
+const wiredep = require('wiredep').stream;
 
 const $ = gulpLoadPlugins();
 const reload = browserSync.reload;
@@ -89,7 +89,8 @@ gulp.task('fonts', () => {
 gulp.task('extras', () => {
   return gulp.src([
     'app/*.*',
-    '!app/*.html'
+    '!app/*.html',
+    'app/CNAME'
   ], {
     dot: true
   }).pipe(gulp.dest('dist'));
@@ -178,6 +179,8 @@ const ghOptions = {
     remoteUrl: 'git@github.com:Conversionista/conversionista.github.io.git',
     branch: 'master'
 };
+
+
 
 gulp.task('deploy', function() {
   return gulp.src('./dist/**/*')

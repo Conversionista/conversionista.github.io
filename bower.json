@@ -1,11 +1,11 @@
 {
-  "name": "c-github-io",
+  "name": "Conversionista! Apps.",
   "private": true,
   "dependencies": {
     "bootstrap-sass": "~3.3.5",
+    "font-awesome": "fontawesome#^4.6.3",
     "handlebars": "^4.0.5",
-    "webfontloader": "^1.6.24",
-    "font-awesome": "fontawesome#^4.6.3"
+    "webfontloader": "^1.6.24"
   },
   "overrides": {
     "bootstrap-sass": {
