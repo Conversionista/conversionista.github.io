@@ -26,18 +26,18 @@ var stuff = {
         class: 'btn-success',
         content: 'Unsure whether your hypothesis is solid or not? Use the test hypothesis creator and find out.'
     }, {
-    //     title: 'Can I test that?',
-    //     subtitle: 'Experiment Feasibility Calculator',
-    //     image: {
-    //         src: '/images/red_cat.svg',
-    //         credit: 'Denis Sazhin',
-    //         alt: ''
-    //     },
-    //     link: '//conversionista.github.io/visual-test-duration-calculator/',
-    //     cta: 'Get started',
-    //     class: 'btn-success',
-    //     content: 'asdasdasd asdasd kmlkasd dsald, dasds sadasd dasdasd sadasd sadsad'
-    // }, {
+        title: 'Can I test that?',
+        subtitle: 'AB-test Calculator using your analytics account',
+        image: {
+            src: '/images/red_cat.svg',
+            credit: 'Denis Sazhin',
+            alt: ''
+        },
+        link: '//apps.conversionista.se/can-i-test-that/',
+        cta: 'Get started',
+        class: 'btn-success',
+        content: 'Hook up your Google Analytics account and find out on which pages you can run meaningful experiments.'
+    }, {
         title: 'Visual Test Duration Calculator',
         subtitle: 'What kind of change can I detect?',
         image: {
