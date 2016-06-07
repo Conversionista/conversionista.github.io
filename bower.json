@@ -1,0 +1,23 @@
+{
+  "name": "c-github-io",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "handlebars": "^4.0.5",
+    "webfontloader": "^1.6.24",
+    "font-awesome": "fontawesome#^4.6.3"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": [
+        "assets/stylesheets/_bootstrap.scss",
+        "assets/fonts/bootstrap/*",
+        "assets/javascripts/bootstrap.js"
+      ]
+    }
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
