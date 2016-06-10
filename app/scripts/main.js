@@ -15,19 +15,19 @@ Handlebars.registerHelper('if_even', function(conditional, options) {
 var stuff = {
     posts: [{
         title: 'Hypothesis Creator',
-        subtitle: 'Get rock solid testing hypothesis',
+        subtitle: 'Get rock solid experiment hypothesis',
         image: {
             src: '/images/red_brain.svg',
             credit: 'Marek Polakovic',
             alt: ''
         },
         link: '//conversionista.github.io/hypothesis-creator',
-        cta: 'Get started',
+        cta: 'Create your hypothesis',
         class: 'btn-success',
-        content: 'Unsure whether your hypothesis is solid or not? Use the test hypothesis creator and find out.'
+        content: 'Use it as a bullshit detector or make sure your experiment hypothesis is solid and based on measurable metrics and data.'
     }, {
         title: 'Can I test that?',
-        subtitle: 'AB-test Calculator using your analytics account',
+        subtitle: 'A/B-test Calculator using your Google Analytics account',
         image: {
             src: '/images/red_cat.svg',
             credit: 'Denis Sazhin',
@@ -36,7 +36,7 @@ var stuff = {
         link: '//apps.conversionista.se/can-i-test-that/',
         cta: 'Get started',
         class: 'btn-success',
-        content: 'Hook up your Google Analytics account and find out on which pages you can run meaningful experiments.'
+        content: 'Find out if it’s even possible to run meaningful experiments on certain pages, just hook up your Google Analytics account and we’ll save you some valuable time.'
     }, {
         title: 'Visual Test Duration Calculator',
         subtitle: 'What kind of change can I detect?',
@@ -46,7 +46,7 @@ var stuff = {
             alt: ''
         },
         link: '//conversionista.github.io/visual-test-duration-calculator/',
-        cta: 'Get started',
+        cta: 'Check your duration',
         class: 'btn-default',
         content: 'A more usable alternative to the existing calculators out there.'
     }, {
@@ -58,9 +58,9 @@ var stuff = {
             alt: ''
         },
         link: '//conversionista.github.io/css-to-jquery-converter-for-optimizely',
-        cta: 'Get started',
+        cta: 'Convert your CSS',
         class: 'btn-default',
-        content: 'Get a nice $("head").append - string for your CSS.'
+        content: 'Get a nice $("head").append for your CSS.'
     }]
 };
 
