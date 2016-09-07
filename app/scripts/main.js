@@ -26,18 +26,18 @@ var stuff = {
         class: 'btn-success',
         content: 'Use it as a bullshit detector or make sure your experiment hypothesis is solid and based on measurable metrics and data.'
     }, {
-        title: 'Can I test that?',
-        subtitle: 'A/B-test Calculator using your Google Analytics account',
-        image: {
-            src: '/images/red_cat.svg',
-            credit: 'Denis Sazhin',
-            alt: ''
-        },
-        link: '//apps.conversionista.se/can-i-test-that/',
-        cta: 'Get started',
-        class: 'btn-success',
-        content: 'Find out if it’s even possible to run meaningful experiments on certain pages, just hook up your Google Analytics account and we’ll save you some valuable time.'
-    }, {
+    //     title: 'Can I test that?',
+    //     subtitle: 'A/B-test Calculator using your Google Analytics account',
+    //     image: {
+    //         src: '/images/red_cat.svg',
+    //         credit: 'Denis Sazhin',
+    //         alt: ''
+    //     },
+    //     link: '//apps.conversionista.se/can-i-test-that/',
+    //     cta: 'Get started',
+    //     class: 'btn-success',
+    //     content: 'Find out if it’s even possible to run meaningful experiments on certain pages, just hook up your Google Analytics account and we’ll save you some valuable time.'
+    // }, {
         title: 'Visual Test Duration Calculator',
         subtitle: 'What kind of change can I detect?',
         image: {
