@@ -26,18 +26,18 @@ var stuff = {
         class: 'btn-success',
         content: 'Use it as a bullshit detector or make sure your experiment hypothesis is solid and based on measurable metrics and data.'
     }, {
-    //     title: 'Can I test that?',
-    //     subtitle: 'A/B-test Calculator using your Google Analytics account',
-    //     image: {
-    //         src: '/images/red_cat.svg',
-    //         credit: 'Denis Sazhin',
-    //         alt: ''
-    //     },
-    //     link: '//apps.conversionista.se/can-i-test-that/',
-    //     cta: 'Get started',
-    //     class: 'btn-success',
-    //     content: 'Find out if it’s even possible to run meaningful experiments on certain pages, just hook up your Google Analytics account and we’ll save you some valuable time.'
-    // }, {
+        title: 'Feasibility Calculator',
+        subtitle: 'Can I test that? A/B-test Calculator using your Google Analytics account',
+        image: {
+            src: '/images/red_cat.svg',
+            credit: 'Denis Sazhin',
+            alt: ''
+        },
+        link: 'https://docs.google.com/spreadsheets/d/1QncI5vyvRFLYs-Oeq8-u64mIfR0V6LSto7kbH3Joub4/edit?usp=sharing',
+        cta: 'Get started',
+        class: 'btn-success',
+        content: 'Find out if it’s even possible to run meaningful experiments on certain pages, check your Google Analytics and fill out the numbers in the spreadsheet.'
+    }, {
         title: 'Visual Test Duration Calculator',
         subtitle: 'What kind of change can I detect?',
         image: {
@@ -69,5 +69,3 @@ var footer = Handlebars.compile($('#footer-template').html());
 
 $('.container > section').append(content(stuff));
 $('.footer .apps-list').append(footer(stuff));
-
-
