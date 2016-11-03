@@ -26,14 +26,14 @@ var stuff = {
         class: 'btn-success',
         content: 'Use it as a bullshit detector or make sure your experiment hypothesis is solid and based on measurable metrics and data.'
     }, {
-        title: 'Feasibility Calculator',
+        title: 'Feasibility Calculator (v1.2)',
         subtitle: 'Can I test that? A/B-test Calculator using your Google Analytics account',
         image: {
             src: '/images/red_cat.svg',
             credit: 'Denis Sazhin',
             alt: ''
         },
-        link: 'https://docs.google.com/spreadsheets/d/1QncI5vyvRFLYs-Oeq8-u64mIfR0V6LSto7kbH3Joub4/edit?usp=sharing',
+        link: 'https://docs.google.com/spreadsheets/d/15HQquMvEh2jfDI9To-4I0d_PcU27VzcuJGEiDfv2Bf4/edit?usp=sharing',
         cta: 'Get started',
         class: 'btn-success',
         content: 'Find out if it’s even possible to run meaningful experiments on certain pages, check your Google Analytics and fill out the numbers in the spreadsheet.'
