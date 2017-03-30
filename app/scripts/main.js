@@ -47,25 +47,39 @@ var stuff = {
         },
         link: '//conversionista.github.io/visual-test-duration-calculator/',
         cta: 'Check your duration',
-        class: 'btn-default',
+        class: 'btn-success',
         content: 'A more usable alternative to the existing calculators out there.'
     }, {
-        title: 'CSS to jQuery Converter',
-        subtitle: 'For Optimizely',
+        title: 'Rate your landing page (BETA)',
+        subtitle: 'To find out how you can improve it',
         image: {
-            src: '/images/red_converter.svg',
-            credit: 'Daniele Catalanotto',
+            src: '/images/red_microscope.svg',
+            credit: 'Anbileru Adaleru',
             alt: ''
         },
-        link: '//conversionista.github.io/css-to-jquery-converter-for-optimizely',
-        cta: 'Convert your CSS',
-        class: 'btn-default',
-        content: 'Get a nice $("head").append for your CSS.'
-    }]
+        link: '//conversionista.github.io/rate-landing-page/',
+        cta: 'Start rating',
+        class: 'btn-success',
+        content: 'Make sure your landing pages are bulletproof with this easy-to-use tool.'
+    }
+    //     {
+    //     title: 'CSS to jQuery Converter',
+    //     subtitle: 'For Optimizely',
+    //     image: {
+    //         src: '/images/red_converter.svg',
+    //         credit: 'Daniele Catalanotto',
+    //         alt: ''
+    //     },
+    //     link: '//conversionista.github.io/css-to-jquery-converter-for-optimizely',
+    //     cta: 'Convert your CSS',
+    //     class: 'btn-default',
+    //     content: 'Get a nice $("head").append for your CSS.'
+    // }
+    ]
 };
 
-var content = Handlebars.compile($('#entry-template').html());
-var footer = Handlebars.compile($('#footer-template').html());
+var content = Handlebars.compile($('#entry-template').html()),
+    footer = Handlebars.compile($('#footer-template').html());
 
 $('.container > section').append(content(stuff));
 $('.footer .apps-list').append(footer(stuff));
