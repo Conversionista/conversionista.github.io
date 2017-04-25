@@ -13,7 +13,21 @@ Handlebars.registerHelper('if_even', function(conditional, options) {
 });
 
 var stuff = {
-    posts: [{
+    posts: [
+    {
+        title: 'Ecommerce Funnel Generator',
+        subtitle: 'Find out where your site is leaking the most',
+        image: {
+            src: '/images/red_funnel.svg',
+            credit: 'Gregor Cresnar',
+            alt: ''
+        },
+        link: '//apps.conversionista.se/ecommerce-effectiveness-tool/',
+        cta: 'Create my funnel',
+        class: 'btn-success',
+        content: 'We will fetch your Enhanced E-commerce data and generate a funnel based on Users (instead of Sessions).'
+    },
+    {
         title: 'Hypothesis Creator',
         subtitle: 'Get rock solid experiment hypothesis',
         image: {
@@ -25,31 +39,8 @@ var stuff = {
         cta: 'Create your hypothesis',
         class: 'btn-success',
         content: 'Use it as a bullshit detector or make sure your experiment hypothesis is solid and based on measurable metrics and data.'
-    }, {
-        title: 'Feasibility Calculator (v1.2)',
-        subtitle: 'Can I test that? A/B-test Calculator using your Google Analytics account',
-        image: {
-            src: '/images/red_cat.svg',
-            credit: 'Denis Sazhin',
-            alt: ''
-        },
-        link: 'https://docs.google.com/spreadsheets/d/15HQquMvEh2jfDI9To-4I0d_PcU27VzcuJGEiDfv2Bf4/edit?usp=sharing',
-        cta: 'Get started',
-        class: 'btn-success',
-        content: 'Find out if it’s even possible to run meaningful experiments on certain pages, check your Google Analytics and fill out the numbers in the spreadsheet.'
-    }, {
-        title: 'Visual Test Duration Calculator',
-        subtitle: 'What kind of change can I detect?',
-        image: {
-            src: '/images/red_calculator.svg',
-            credit: 'Luboš Volkov',
-            alt: ''
-        },
-        link: '//conversionista.github.io/visual-test-duration-calculator/',
-        cta: 'Check your duration',
-        class: 'btn-success',
-        content: 'A more usable alternative to the existing calculators out there.'
-    }, {
+    },
+    {
         title: 'Rate your landing page (BETA)',
         subtitle: 'To find out how you can improve it',
         image: {
@@ -61,7 +52,34 @@ var stuff = {
         cta: 'Start rating',
         class: 'btn-success',
         content: 'Make sure your landing pages are bulletproof with this easy-to-use tool.'
+    },
+    {
+        title: 'Feasibility Calculator (v1.2)',
+        subtitle: 'Can I test that? A/B-test Calculator using your Google Analytics account',
+        image: {
+            src: '/images/red_cat.svg',
+            credit: 'Denis Sazhin',
+            alt: ''
+        },
+        link: 'https://docs.google.com/spreadsheets/d/15HQquMvEh2jfDI9To-4I0d_PcU27VzcuJGEiDfv2Bf4/edit?usp=sharing',
+        cta: 'Get started',
+        class: 'btn-default',
+        content: 'Find out if it’s even possible to run meaningful experiments on certain pages, check your Google Analytics and fill out the numbers in the spreadsheet.'
+    },
+    {
+        title: 'Visual Test Duration Calculator',
+        subtitle: 'What kind of change can I detect?',
+        image: {
+            src: '/images/red_calculator.svg',
+            credit: 'Luboš Volkov',
+            alt: ''
+        },
+        link: '//conversionista.github.io/visual-test-duration-calculator/',
+        cta: 'Check your duration',
+        class: 'btn-default',
+        content: 'A more usable alternative to the existing calculators out there.'
     }
+    
     //     {
     //     title: 'CSS to jQuery Converter',
     //     subtitle: 'For Optimizely',
